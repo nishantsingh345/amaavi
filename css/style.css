@@ -28,36 +28,12 @@ p {
   margin-bottom: 18px;
 }
 
-/* .header {
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  position: sticky; 
-  background-color: #cc4735;
-} */
-
-/* .header-scrolled {
-  position: fixed;
-  top: -0.4rem;
-  left: 0;
-  right: 0;
-  width: 100%;
-  margin: auto;
-  z-index: 999;
-  transition: 0.3s all ease-in-out;
-  background-color: #cc4735;
-} */
 
 .navbar-inverse {
-  background-color: transparent;
-  border-color: transparent;
-  border-radius: 0px;
-  z-index: 999;
-  position: sticky;
-  top: 0;
-  background-color: #cc4735;
-  /* background-color: #cc4735; */
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    z-index: 9;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
