@@ -28,12 +28,11 @@ p {
   margin-bottom: 18px;
 }
 
-
 .navbar-inverse {
-    background-color: transparent;
-    border-color: transparent;
-    border-radius: 0px;
-    z-index: 9;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 0px;
+  z-index: 9;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -45,7 +44,7 @@ p {
 }
 
 .carousel-item {
-  height: 600px;
+  /* height: 600px; */
 }
 
 .home_page .banner {
@@ -642,4 +641,34 @@ section.privacy_content p {
 
 section.privacy_content ul {
   padding-left: 30px;
+}
+
+/* navbar */
+.flex_item {
+  display: flex;
+  justify-items: space-between;
+}
+
+/* carousel css */
+.carousel_styles {
+  display: inline-block !important;
+  margin-top: 40px !important;
+}
+.carousel_styles .carousel-control-prev span {
+  position: absolute;
+  background-color: black;
+  bottom: 0;
+}
+.carousel_styles .carousel-control-prev {
+  left: 40% !important;
+}
+.carousel_styles .carousel-control-next {
+  right: 40% !important;
+}
+
+.carousel_styles .carousel-control-next span {
+  position: absolute;
+  color: red;
+  background-color: red;
+  bottom: 0;
 }
