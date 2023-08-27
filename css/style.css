@@ -42,7 +42,11 @@ p {
   background-color: transparent;
   font-weight: 600;
 }
-
+.my_nav a {
+  color: #fff;
+  background-color: transparent;
+  font-weight: 600;
+}
 .carousel-item {
   /* height: 600px; */
 }
@@ -644,10 +648,6 @@ section.privacy_content ul {
 }
 
 /* navbar */
-.flex_item {
-  display: flex;
-  justify-items: space-between;
-}
 
 /* carousel css */
 .carousel_styles {
