@@ -710,6 +710,10 @@ section.privacy_content ul {
   background-position: 50% 50%;
   /* position: relative; */
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .srinagar_page .banner_second .day_one {
