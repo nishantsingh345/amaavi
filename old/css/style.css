@@ -703,3 +703,16 @@ section.privacy_content ul {
   width: 100vw;
   margin-bottom: 3%;
 }
+
+.srinagar_page .banner_second {
+  background: url(../images/background/hero_bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  /* position: relative; */
+  min-height: 100vh;
+}
+
+.srinagar_page .banner_second .day_one {
+  background-color: white;
+  padding: 15px 20px;
+}
