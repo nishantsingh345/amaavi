@@ -1,64 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Amaavi Services</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="icon" href="images/fav.png" type="image/gif" sizes="16*16">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/media.css">
-</head>
+  <head>
+    <title>Amaavi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
-<body class="home_page services_page">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/fav.png" type="image/gif" sizes="16*16" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+  </head>
 
-<nav class="navbar navbar-inverse">
+  <body class="home_page services_page">
+    <nav class="navbar navbar-expand-lg position-sticky top-0 navbar-inverse" style="z-index: 99">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand hide_brand" href="index.html">
+            <img src="images/logo1.png" class="img-responsive res_1920" />
+          </a>
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" class="img-responsive res_768" />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav my_nav ms-auto mb-2 mb-lg-0 text-right">
+            <li class="active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="voyagers.html">Amaavi Voyagers</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="reachus.html">Reach Us</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner">
+      <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1>
+            Travelling is a mix of many things and we know exactly whats to be mixed for the right
+            <br />EXPERIENCE!
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="services_amaavi">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand hide_brand" href="index.html"> <img src="images/header_logo.png" class="img-responsive res_1920"> </a>
-      <a class="navbar-brand" href="index.html"> <img src="images/logo.png" class="img-responsive res_768"> </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li class="active"><a href="services.html">Services</a></li>
-        <li><a href="voyagers.html">Amaavi Voyagers</a></li>
-        <li><a href="reachus.html">Reach Us</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
 
-<section class="banner">
-  <div class="container">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <h1>  Travelling is a mix of many things and we know exactly whats to be mixed for the right <br>EXPERIENCE!</h1>
-    </div>
-  </div>
-</section>
-
-
-
-<section class="services_amaavi">
-  <div class="container">
-
-    <!--div class="row">
+    div class="row">
       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
         <img src="images/icons/visa.png" class="img-responsive">
       </div>
@@ -69,7 +125,7 @@
           <br><strong>Please note :</strong> Visas are solely approved at the discretion of the concerned regulatory authorities. We give no guarantees or assurances of a 100% chance of visa approval. Owing to our experience, however, we hand-hold you through the process to ensure a better experience.
             </p>
       </div>
-    </div-->
+    </div
 
     <div class="row">
       <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
@@ -117,101 +173,289 @@
       </div>
     </div>
 
-</section>
+</section> -->
 
-<section class="home_parallex">
-  <div class="container">
-    <h2> The Amaavi Advantage </h2>
-
-  </div>
-</section>
-
-<section class="services_pods">
-  <div class="container">
-    <img src="images/icons/services_icon.png" class="img-responsive">
-    <h3> So much to do & so much to see. Travel hassle free, with Amaavi! </h3>
-    <p> We’re dedicated to ensuring that your travel experience is seamless, so you can focus on the things that really matter. </p>
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="curatorials_pods">
-          <img src="images/icons/services_1.png" class="img-responsive">
-          <p> Round the Clock Assistance </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="curatorials_pods">
-          <img src="images/icons/services_2.png" class="img-responsive">
-          <p> On Ground Support </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="curatorials_pods">
-          <img src="images/icons/services_3.png" class="img-responsive">
-          <p> On Ground Support </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="curatorials_pods">
-          <img src="images/icons/services_4.png" class="img-responsive">
-          <p> Robust Global Partnerships </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="curatorials_pods">
-          <img src="images/icons/services_5.png" class="img-responsive">
-          <p> Personalised Travel Consulting </p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="curatorials_pods">
-          <img src="images/icons/services_6.png" class="img-responsive">
-          <p> End to End Facilitation </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="home_icon">
-  <div class="container">
-    <img src="images/home_icon.png" class="img-responsive">
-    <h2> Veni Vidi Amaavi </h2>
-    <h3> “Travelling : It leaves you speechless, then turns you into a story-teller.” </h3>
-    <p> <span>  Right from the time </span> that you sign up with us, we are your personal travel consultants. While we sit in our office designing the perfect itinerary 
-for you to experience, our hearts and minds are wandering to a land far away, in which the prairies are swaying gently below the mountains, and the sand
-dunes form waves along-side chilly streams.  Beyond the concrete jungles and the entrapment of the maze of electronics and its invisible web of 
-information, awaits an adventure that you’ve always yearned for.  Decide your path and roam unfettered, for, distances and logic are barriers that don’t
-exist in the Amaavi realm.  </p>
-   
-  </div>
-</section>
-
-<section class="footer">
-  <div class="container">
-    <img src="images/logo.png" class="img-responsive footer_logo">
-    <p> Handcrafted Travel Experiences | Personalized Travel Consulting </p>
-    <ul>
-      <li> <a href="https://www.facebook.com/amaaviexperiences/"> <img src="images/fb.png" class="img-responsive"> </a> </li>
-      <li> <a href="https://www.instagram.com/amaaviexperiences/?hl=en"> <img src="images/instagram.png" class="img-responsive"> </a> </li>
-       <!--<li> <a href="#"> <img src="images/youtube.png" class="img-responsive"> </a> </li>-->
-      <li> <a href="https://www.linkedin.com/company/amaavi-experiences/about/"> <img src="images/linkdien.png" class="img-responsive"> </a> </li>
-    </ul>
-  </div>
-</section>
-
-<section class="sub_footer">
-         <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-               <p class="copyrights"> Copyright © Amaavi Experiences Pvt. Ltd.2019 </p>
+    <section class="section.right_to_get p" style="margin-top: 30px">
+      <div class="container">
+        <h2 style="text-align: center; font-size: 34px; color: #cc4432; padding-bottom: 15px">
+          Our Services
+        </h2>
+        <h2
+          style="
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+            margin-top: 15px;
+            margin-bottom: 15px;
+          "
+        >
+          “Adventure is worthwhile”
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4" style="padding: 6% 1%">
+                  <img
+                    src="images/icons/pod_4.png"
+                    class="img-fluid rounded-start"
+                    style="width: 75%"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">DOMESTIC HOLIDAYS</h5>
+                    <p class="card-text">
+                      A company born and established in India, we help you explore hidden gems from
+                      this magical land of many cultures, stories and experiences.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-               <a href="privacy.html" target="_blank" class="privacy"> Privacy Policy </a>
-               <a href="termscondition.html" target="_blank" class="privacy"> Terms & Condition </a>
-               <a href="refundpolicy.html" target="_blank" class="privacy"> Refund Policy </a>
-            </div>
-         </div>
-       </div>
-      </section>
+          </div>
 
-</body>
+          <div class="col-md-6">
+            <div class="card mb-2" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4" style="padding: 6% 1%">
+                  <img
+                    src="images/icons/pod_3.png"
+                    class="img-fluid rounded-start"
+                    style="width: 75%"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">International Holidays</h5>
+                    <p class="card-text">
+                      The world is truly your playground! With highly rated on-ground service and
+                      support teams, Amaavi helps you travel the globe, one or many destinations at
+                      a time!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4" style="padding: 6% 1%">
+                  <img
+                    src="images/icons/pod_2.png"
+                    class="img-fluid rounded-start"
+                    style="width: 75%"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Personal Travel Consulting</h5>
+                    <p class="card-text">
+                      What are you looking for? Adventure, relaxation or inspiration? We can help
+                      you curate the perfect itinerary to make that travel dream a reality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4" style="padding: 6% 1%">
+                  <img
+                    src="images/icons/pod_1.png"
+                    class="img-fluid rounded-start"
+                    style="width: 75%"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Destination Management Services</h5>
+                    <p class="card-text">
+                      It’s great to have a travel partner whose experience and expertise can help
+                      you make the most of your trip- while you leave the logistics to us!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4" style="padding: 6% 1%">
+                  <img
+                    src="images/icons/pod_5.png"
+                    class="img-fluid rounded-start"
+                    style="width: 65%"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Visa Management Services</h5>
+                    <p class="card-text">
+                      We help you navigate the Visa process from application to fee payment,
+                      appointments to background checks so you can travel smoothly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4" style="padding: 6% 1%">
+                  <img
+                    src="images/icons/pod_6.png"
+                    class="img-fluid rounded-start"
+                    style="width: 65%"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Group Travel Consulting</h5>
+                    <p class="card-text">
+                      ILooking for a getaway with family, friends or work colleagues? We tailor-make
+                      travel itineraries to suit your budgets and exceed your expectations!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home_parallex">
+      <div class="container">
+        <h2>The Amaavi Advantage</h2>
+      </div>
+    </section>
+
+    <section class="services_pods">
+      <div class="container">
+        <img src="images/icons/services_icon.png" class="img-responsive" />
+        <h3>So much to do & so much to see. Travel hassle free, with Amaavi!</h3>
+        <p>
+          We’re dedicated to ensuring that your travel experience is seamless, so you can focus on
+          the things that really matter.
+        </p>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="curatorials_pods">
+              <img src="images/icons/services_1.png" class="img-responsive" />
+              <p>Round the Clock Assistance</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="curatorials_pods">
+              <img src="images/icons/services_2.png" class="img-responsive" />
+              <p>On Ground Support</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="curatorials_pods">
+              <img src="images/icons/services_3.png" class="img-responsive" />
+              <p>On Ground Support</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="curatorials_pods">
+              <img src="images/icons/services_4.png" class="img-responsive" />
+              <p>Robust Global Partnerships</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="curatorials_pods">
+              <img src="images/icons/services_5.png" class="img-responsive" />
+              <p>Personalised Travel Consulting</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <div class="curatorials_pods">
+              <img src="images/icons/services_6.png" class="img-responsive" />
+              <p>End to End Facilitation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="home_icon">
+      <div class="container">
+        <img src="images/home_icon.png" class="img-responsive" />
+        <h2>Veni Vidi Amaavi</h2>
+        <h3>“Travelling : It leaves you speechless, then turns you into a story-teller.”</h3>
+        <p>
+          <span> Right from the time </span> that you sign up with us, we are your personal travel
+          consultants. While we sit in our office designing the perfect itinerary for you to
+          experience, our hearts and minds are wandering to a land far away, in which the prairies
+          are swaying gently below the mountains, and the sand dunes form waves along-side chilly
+          streams. Beyond the concrete jungles and the entrapment of the maze of electronics and its
+          invisible web of information, awaits an adventure that you’ve always yearned for. Decide
+          your path and roam unfettered, for, distances and logic are barriers that don’t exist in
+          the Amaavi realm.
+        </p>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <img src="images/logo.png" class="img-responsive footer_logo" />
+        <p>Handcrafted Travel Experiences | Personalized Travel Consulting</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/amaaviexperiences/">
+              <img src="images/fb.png" class="img-responsive" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/amaaviexperiences/?hl=en">
+              <img src="images/instagram.png" class="img-responsive" />
+            </a>
+          </li>
+          <!--<li> <a href="#"> <img src="images/youtube.png" class="img-responsive"> </a> </li>-->
+          <li>
+            <a href="https://www.linkedin.com/company/amaavi-experiences/about/">
+              <img src="images/linkdien.png" class="img-responsive" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sub_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <p class="copyrights">Copyright © Amaavi Experiences Pvt. Ltd.2023</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center-block" style="text-align: right">
+            <a href="privacy.html" target="_blank" class="privacy" style="color: #ffffff">
+              Privacy Policy
+            </a>
+            <a href="termscondition.html" target="_blank" class="privacy" style="color: #ffffff">
+              Terms & Condition
+            </a>
+            <a href="refundpolicy.html" target="_blank" class="privacy" style="color: #ffffff">
+              Refund Policy
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
