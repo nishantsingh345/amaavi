@@ -698,7 +698,7 @@ section.privacy_content ul {
   width: 60%;
 }
 
-.srinagar_page .banner .summits_bottom{
+.srinagar_page .banner .summits_bottom {
   background-color: #cc4735;
   width: 100vw;
   margin-bottom: 3%;
@@ -715,4 +715,5 @@ section.privacy_content ul {
 .srinagar_page .banner_second .day_one {
   background-color: white;
   padding: 15px 20px;
+  margin: 10px 0;
 }
