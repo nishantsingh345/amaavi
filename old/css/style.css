@@ -721,3 +721,20 @@ section.privacy_content ul {
   padding: 15px 20px;
   margin: 10px 0;
 }
+
+/* footer column */
+.srinagar_page .page_foot {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.srinagar_page .page_foot p {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.srinagar_page .page_foot p a {
+  text-decoration: none;
+  color: white;
+}
