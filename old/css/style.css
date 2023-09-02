@@ -820,3 +820,22 @@ section.privacy_content ul {
 .srinagar_page .banner_five ul li {
   font-size: 2em;
 }
+
+/* banner section six */
+.banner_six .top_footer {
+  background-color: #cc4735;
+  padding: 20px;
+  text-align: center;
+}
+.banner_six .top_footer h1 {
+  font-size: 5em;
+  color: #fff;
+}
+.banner_six .top_footer span {
+  color: #fff;
+}
+
+.banner_six .medium_footer {
+  padding: 20px;
+  text-align: center;
+}
