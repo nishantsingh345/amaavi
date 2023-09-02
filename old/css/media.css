@@ -836,22 +836,22 @@
   .srinagar_page .banner_four {
     height: 120vh;
   }
-  .srinagar_page .banner_five {
+  .srinagar_page .seven_table {
     height: auto;
     display: block;
   }
-  .srinagar_page .banner_five .day_one {
+  .srinagar_page .seven_table .day_one {
     display: block;
   }
-  .srinagar_page .banner_five .abs {
+  .srinagar_page .seven_table .abs {
     height: auto;
     position: inherit !important;
     transform: none !important;
   }
-  .srinagar_page .banner_five .abs div {
+  .srinagar_page .seven_table .abs div {
     margin: 10px 0;
   }
-  .srinagar_page .banner_five .border-r {
+  .srinagar_page .seven_table .border-r {
     border: none !important;
   }
   .srinagar_page .banner_six {
@@ -862,6 +862,9 @@
     flex-wrap: wrap;
     overflow-x: scroll;
     gap: 10px;
+  }
+  .srinagar_page .seven_table .day_one div {
+    border-right: none !important;
   }
 
   .section_item row {
