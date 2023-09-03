@@ -692,6 +692,11 @@ section.privacy_content ul {
   background-color: #cc4735;
   padding: 15px 10px;
 }
+
+.srinagar_page .banner .summits h1 {
+  font-size: 40px;
+}
+
 .srinagar_page .banner .summits_down {
   background-color: white;
   color: #cc4735;
@@ -702,6 +707,23 @@ section.privacy_content ul {
   background-color: #cc4735;
   width: 100vw;
   margin-bottom: 3%;
+  padding: 10px 5px;
+}
+
+.srinagar_page .banner .summits_bottom .summitsbottom_inner {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 8px;
+}
+
+.srinagar_page .banner .summits_bottom .summitsbottom_inner img {
+  width: 20%;
+}
+
+.srinagar_page .banner .summits_bottom .summitsbottom_inner p {
+  color: white;
+  text-align: center;
 }
 
 .srinagar_page .banner_second {
@@ -915,6 +937,12 @@ section.privacy_content ul {
   right: 0;
   width: 100%;
 }
+
+.abs {
+  margin: 0 60px;
+}
+
+
 .srinagar_page .seven_table .day_one {
   display: grid;
   overflow: hidden;
@@ -977,5 +1005,5 @@ section.privacy_content ul {
   border-right: 1px solid #cc4735;
 }
 .srinagar_page .seven_table ul li {
-  font-size: 2em;
+  font-size: 20px;
 }
