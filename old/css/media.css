@@ -907,4 +907,10 @@
     font-size: 2em;
     color: #fff;
   }
+
+  .card {
+    border: none;
+    border-bottom: 3px solid rgb(27, 27, 201);
+    border-radius: 1px;
+  }
 }

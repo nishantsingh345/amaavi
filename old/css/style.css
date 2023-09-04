@@ -131,6 +131,13 @@ section.home_icon p {
   line-height: initial;
 }
 
+.card {
+  border: none;
+}
+.card_border {
+  border-right: 3px solid rgb(18, 18, 218);
+  border-radius: 2px;
+}
 section.home_icon h3 {
   color: #787878;
   font-size: 30px;
