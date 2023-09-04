@@ -900,6 +900,11 @@
   }
 
   .srinagar_page .seven_table ul li {
-  font-size: 16px;
-}
+    font-size: 16px;
+  }
+
+  .banner_eight .top_footer h1 {
+    font-size: 2em;
+    color: #fff;
+  }
 }
