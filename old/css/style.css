@@ -37,16 +37,19 @@ p {
 }
 
 .navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:focus,
-.navbar-inverse .navbar-nav > .active > a:hover {
+.navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: transparent;
   font-weight: 600;
 }
-.my_nav a {
+.my_nav li a {
   color: #fff;
   background-color: transparent;
   font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav .nav-item > a:hover {
+  color: #000000 !important;
 }
 .carousel-item {
   /* height: 600px; */
@@ -692,6 +695,11 @@ section.privacy_content ul {
   background-color: #cc4735;
   padding: 15px 10px;
 }
+
+.srinagar_page .banner .summits h1 {
+  font-size: 40px;
+}
+
 .srinagar_page .banner .summits_down {
   background-color: white;
   color: #cc4735;
@@ -702,6 +710,23 @@ section.privacy_content ul {
   background-color: #cc4735;
   width: 100vw;
   margin-bottom: 3%;
+  padding: 10px 5px;
+}
+
+.srinagar_page .banner .summits_bottom .summitsbottom_inner {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 8px;
+}
+
+.srinagar_page .banner .summits_bottom .summitsbottom_inner img {
+  width: 20%;
+}
+
+.srinagar_page .banner .summits_bottom .summitsbottom_inner p {
+  color: white;
+  text-align: center;
 }
 
 .srinagar_page .banner_second {
@@ -820,8 +845,8 @@ section.privacy_content ul {
   font-size: 1em;
 }
 
-.srinagar_page .banner_five .border-r {
-  border-right: 1px solid #cc4735;
+.srinagar_page .banner_seven .border-r {
+  border-right: 2px solid #cc4735;
 }
 .srinagar_page .banner_five ul li {
   font-size: 2em;
@@ -841,7 +866,12 @@ section.privacy_content ul {
   color: #fff;
 }
 
-.banner_six .medium_footer {
+.banner_eight .top_footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.banner_eight .medium_footer {
   padding: 20px;
   text-align: center;
 }
@@ -870,6 +900,11 @@ section.privacy_content ul {
   right: 0;
   width: 100%;
 }
+
+.abs {
+  margin: 0 60px;
+}
+
 .srinagar_page .seven_table .day_one {
   display: grid;
   overflow: hidden;
@@ -881,12 +916,12 @@ section.privacy_content ul {
   margin: 10px 0;
 }
 .srinagar_page .seven_table .day_one div {
-  border-right: 2px solid #fff;
+  border-right: 3px solid #fff;
   align-self: stretch;
   display: flex;
   flex-direction: column;
   height: auto;
-  background-color: gray;
+  background-color: rgb(100, 99, 99);
   justify-content: center;
   position: relative;
   z-index: 999;
@@ -902,6 +937,7 @@ section.privacy_content ul {
   text-align: center;
   padding: 10px 2px;
   border-radius: 2px;
+  border-bottom: 4px solid white;
 }
 .srinagar_page .seven_table .day_one p {
   color: black;
@@ -932,5 +968,5 @@ section.privacy_content ul {
   border-right: 1px solid #cc4735;
 }
 .srinagar_page .seven_table ul li {
-  font-size: 2em;
+  font-size: 20px;
 }

@@ -827,6 +827,23 @@
   .srinagar_page .banner {
     height: auto;
   }
+
+  .srinagar_page .banner .summits h1 {
+    font-size: 30px;
+  }
+
+  .srinagar_page .banner .summits_down {
+    width: 100%;
+  }
+
+  .srinagar_page .banner .summits_bottom div {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+  }
   .srinagar_page .banner_second {
     height: auto;
   }
@@ -876,5 +893,18 @@
   .page_foot {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .abs {
+    margin: 0 5px;
+  }
+
+  .srinagar_page .seven_table ul li {
+    font-size: 16px;
+  }
+
+  .banner_eight .top_footer h1 {
+    font-size: 2em;
+    color: #fff;
   }
 }
